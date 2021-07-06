@@ -10,7 +10,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{
 		resources\template.hbm.xml = resources\template.hbm.xml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioseca.ConsoleApp", "Biblioseca.ConsoleApp\Biblioseca.ConsoleApp.csproj", "{4DEABAF4-46AF-4141-BD1E-01D92CD86982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioseca.Model", "Biblioseca.Model\Biblioseca.Model.csproj", "{DC6C61EB-81B1-41C9-B88E-88486029D5B6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DEABAF4-46AF-4141-BD1E-01D92CD86982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEABAF4-46AF-4141-BD1E-01D92CD86982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEABAF4-46AF-4141-BD1E-01D92CD86982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEABAF4-46AF-4141-BD1E-01D92CD86982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC6C61EB-81B1-41C9-B88E-88486029D5B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC6C61EB-81B1-41C9-B88E-88486029D5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC6C61EB-81B1-41C9-B88E-88486029D5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC6C61EB-81B1-41C9-B88E-88486029D5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
